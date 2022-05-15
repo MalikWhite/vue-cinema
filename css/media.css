@@ -1,0 +1,114 @@
+@media(max-width: 992px) {
+  .films__content {
+    grid-template-columns: 30% 30%;
+    justify-content: center;
+
+  }
+
+  .title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .series__item:nth-of-type(2) {
+    grid-column: span 4;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .series__item:nth-of-type(3),
+  .series__item:nth-of-type(4),
+  .series__item:nth-of-type(5),
+  .series__item:nth-of-type(6) {
+    grid-column: span 2;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media(max-width: 768px) {
+  .films__content {
+    grid-template-columns: 45% 45%;
+  }
+
+  .collections__content {
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+  }
+
+  .collections__item:nth-of-type(3) {
+    grid-column: span 2;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media(max-width: 628px) {
+  .intro__title {
+    text-align: center;
+  }
+}
+
+@media(max-width: 590px) {
+  .footer__content{
+    justify-content: center;
+  }
+  .footer__text{
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .collections__content{
+    grid-template-columns: 70%;
+  }
+  .collections__item:nth-of-type(3){
+    grid-column: span 1;
+    width: 100%;
+  }
+  .films__content{
+    grid-template-columns: 70%;
+  }
+  .series__item:nth-of-type(2){
+    width: 100%;
+  }
+
+  .series__item:nth-of-type(3),
+  .series__item:nth-of-type(4),
+  .series__item:nth-of-type(5),
+  .series__item:nth-of-type(6) {
+    grid-column: span 2;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .widow__content>img{
+    width: 90%;
+  }
+
+}
+
+@media(max-width: 450px){
+  .series__item:nth-of-type(3),
+  .series__item:nth-of-type(4),
+  .series__item:nth-of-type(5),
+  .series__item:nth-of-type(6) {
+    grid-column: span 4;
+    width: 90%;
+  }
+
+  .collections__content{
+    grid-template-columns: 100%;
+  }
+
+  .films__content{
+    grid-template-columns: 100%;
+  }
+
+  .collections__title{
+    text-align: center;
+  }
+}
